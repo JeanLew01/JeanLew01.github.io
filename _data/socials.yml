@@ -1,6 +1,13 @@
-# Contact information from the September 2026 CV.
+# Social links appear in this order at the bottom of the home page.
 email: jliu376@jh.edu
 github_username: JeanLew01
-# Add Google Scholar and a PDF CV when available.
-# scholar_userid: your-google-scholar-id
+zhihu:
+  logo: fa-brands fa-zhihu
+  title: 知乎
+  url: https://www.zhihu.com/people/la-la-la-56-39-70
+google_scholar:
+  logo: ai ai-google-scholar
+  title: Google Scholar
+  url: https://scholar.google.com/citations?user=JR9Agi8AAAAJ&hl=zh-CN
+# Add a PDF CV when available.
 # cv_pdf: /assets/pdf/cv.pdf
