@@ -24,6 +24,8 @@ latest_posts:
   limit: 3
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/social-icons.css' | relative_url | bust_file_cache }}">
+
 I study safe and reliable autonomous systems at the intersection of **control theory, robotics, and machine learning**.
 
 My research develops **data-driven, learning-based, and generative methods for safety verification**, particularly for complex systems where exact computation is intractable and guarantees must be obtained from limited data drawn from complex distributions.
