@@ -1,0 +1,124 @@
+# 配置与发布
+
+## 当前配置
+
+这是从 al-folio 创建的独立 Git 仓库，默认分支为 `main`。
+
+```yaml
+url: https://jeanlew01.github.io
+baseurl: ""
+```
+
+个人主页使用空 `baseurl`。上游文档里的 `/al-folio` 是主题演示站的路径，不适用于本仓库。
+
+GitHub 远程仓库和线上站点需要完成下列步骤后才会存在。当前目录里的 `origin` 仅配置了目标地址，不代表远程仓库已经创建。
+
+## 1. 创建 GitHub 远程仓库并上传
+
+### 使用浏览器
+
+1. 登录 `JeanLew01`，打开 [GitHub 新建仓库](https://github.com/new)。
+2. 仓库名称填写 `JeanLew01.github.io`，可见性选择 **Public**。
+3. 创建空仓库：不要勾选初始化 README、`.gitignore` 或许可证，本地已经包含这些文件。
+4. 在终端执行：
+
+```bash
+cd /home/jixia/JeanLew01.github.io
+git push -u origin main
+```
+
+HTTPS 推送需要本机可用的 GitHub 身份认证。如果使用 SSH，可先按 GitHub 官方说明配置 SSH，再执行：
+
+```bash
+git remote set-url origin git@github.com:JeanLew01/JeanLew01.github.io.git
+git push -u origin main
+```
+
+### 使用 GitHub CLI
+
+如果已安装 [GitHub CLI](https://cli.github.com/)，执行：
+
+```bash
+cd /home/jixia/JeanLew01.github.io
+gh auth login --hostname github.com --git-protocol https --web
+gh auth setup-git
+gh repo create JeanLew01/JeanLew01.github.io --public --description "Academic homepage of Jixian Liu, built with al-folio"
+git push -u origin main
+```
+
+远程仓库已经存在时，跳过 `gh repo create`。如果其中已有内容，先检查远程历史，不要强制推送覆盖。
+
+## 2. 启用 GitHub Pages
+
+1. 打开仓库的 **Actions**，等待 **Deploy site** 成功；该流程会生成 `gh-pages` 分支。
+2. 打开 **Settings → Pages → Build and deployment**。
+3. **Source** 选择 **Deploy from a branch**，分支选 **gh-pages**，目录选 **/ (root)**，保存。
+4. 等待 Pages 发布完成，访问 <https://jeanlew01.github.io>。
+
+仓库已有部署工作流声明 `contents: write`。如果组织或账号策略限制写权限，按 [al-folio 安装文档](https://github.com/alshedivat/al-folio/blob/main/docs/INSTALL.md) 检查 **Settings → Actions → General → Workflow permissions**。
+
+后续把更新推送到 `main` 后，工作流会重新构建并发布。
+
+## 3. 填写个人资料
+
+- **个人简介**：编辑 `_pages/about.md`，把占位段落换成单位、研究方向和个人介绍。
+- **头像**：添加 `assets/img/profile.jpg`，将 `_pages/about.md` 的 `profile.image` 改为 `profile.jpg`。
+- **联系方式**：编辑 `_data/socials.yml`，添加准备公开的邮箱、Google Scholar ID 等。
+- **论文**：把真实论文 BibTeX 加入 `_bibliography/papers.bib`。填写后删除 `_pages/publications.md` 中的占位描述。论文页会自动渲染列表；要在首页显示精选论文，将条目标为 `selected = {true}`，并把首页的 `selected_papers` 设为 `true`。
+- **项目**：在 `_projects/` 创建 Markdown 文件，例如：
+
+```markdown
+---
+layout: page
+title: 项目名称
+description: 项目简介
+importance: 1
+---
+
+项目内容与链接。
+```
+
+- **简历**：编辑 `_data/cv.yml`；如需 PDF 下载，把文件放到 `assets/pdf/cv.pdf`，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
+- **博客与新闻**：目前入口隐藏，示例内容已清空。需要时可按 `docs/CUSTOMIZE.md` 恢复页面和首页的 `latest_posts` / `announcements` 开关。
+
+示例人物资料、外部博客订阅、演示论文、照片和 CV 已移除。图片自动生成 WebP 的功能暂时关闭；需要时安装 ImageMagick 并启用 `_config.yml` 的 `imagemagick.enabled`。
+
+## 4. 本地预览与检查
+
+### Docker
+
+安装 Docker Engine 和 Compose 插件后：
+
+```bash
+cd /home/jixia/JeanLew01.github.io
+docker compose up --build
+```
+
+访问 <http://localhost:8080/>。停止服务：
+
+```bash
+docker compose down
+```
+
+### Ruby
+
+安装 Ruby **3.3.5**、Bundler **4.0.6** 和 Node.js 后：
+
+```bash
+cd /home/jixia/JeanLew01.github.io
+gem install bundler -v 4.0.6
+bundle install
+npm ci
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+访问 <http://localhost:4000/>。构建与源码检查：
+
+```bash
+npm run lint:prettier
+npm run lint:style-contract
+bundle exec al-folio upgrade audit --no-fail
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+Jekyll 将生成 `_site/`；该目录不会提交到 `main`。上游测试里的演示页面和截图针对 al-folio 演示站，个人网站应检查自身的页面与导航。
