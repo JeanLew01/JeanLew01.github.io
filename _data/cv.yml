@@ -12,7 +12,8 @@ cv:
           **Graduate Research Assistant** — NetD-Lab, Data Science and AI Institute,
           Johns Hopkins University. Advisor: Enrique Mallada. **Aug. 2025 – Present**.
     Research Interests:
-      - bullet: Safety-Critical Control, Robotics, Robot Learning, Reinforcement Learning.
+      - bullet: Safe and reliable autonomous systems at the intersection of control theory, robotics, and machine learning.
+      - bullet: Data-driven, learning-based, and generative safety verification using system symmetries, structural inductive biases, and compact latent representations.
     Education:
       - institution: Johns Hopkins University
         location: Baltimore, MD

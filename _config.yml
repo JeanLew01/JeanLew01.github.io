@@ -9,12 +9,12 @@ last_name: Liu
 contact_note: >
   You can reach me by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jixian Liu is a Ph.D. student in Electrical and Computer Engineering at Johns Hopkins University.
-  Research interests include safety-critical control, robotics, robot learning, and reinforcement learning.
+  Jixian Liu studies safe and reliable autonomous systems using data-driven, learning-based,
+  and generative methods for safety verification.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Jixian Liu, Johns Hopkins University, safety-critical control, robotics, robot learning, reinforcement learning, reachability
+keywords: Jixian Liu, Johns Hopkins University, autonomous systems, control theory, robotics, machine learning, safety verification, generative methods, system symmetries, structural inductive biases, latent representations
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.

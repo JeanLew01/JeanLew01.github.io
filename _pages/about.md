@@ -24,11 +24,15 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. student in [Electrical and Computer Engineering](https://engineering.jhu.edu/ece/) at Johns Hopkins University, advised by [Enrique Mallada](https://mallada.ece.jhu.edu/). I am also a Graduate Research Assistant in NetD-Lab at the [Data Science and AI Institute](https://ai.jhu.edu/).
+I study safe and reliable autonomous systems at the intersection of **control theory, robotics, and machine learning**.
 
-My research interests are **safety-critical control, robotics, robot learning, and reinforcement learning**. My recent work focuses on reachability analysis, recurrent tracking and control barrier functions, and data-driven safety verification. See my [research overview]({{ '/research/' | relative_url }}) and [publications]({{ '/publications/' | relative_url }}) for more details.
+My research develops **data-driven, learning-based, and generative methods for safety verification**, particularly for complex systems where exact computation is intractable and guarantees must be obtained from limited data drawn from complex distributions.
 
-I joined the Ph.D. program at Johns Hopkins in August 2024. Before that, I received my B.S. in Physics from Xi’an Jiaotong University in July 2024.
+Using **system symmetries, structural inductive biases, and compact latent representations**, I aim to enable real-time, data-efficient safety verification that can be deployed in real-world robotic systems.
+
+I am advised by [Enrique Mallada](https://mallada.ece.jhu.edu/). Before coming to Johns Hopkins, I completed a B.S. degree in Physics at Xi’an Jiaotong University.
+
+See my [research overview]({{ '/research/' | relative_url }}) and [publications]({{ '/publications/' | relative_url }}) for more details.
 
 ### Recent honors
 
