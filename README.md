@@ -3,11 +3,11 @@
 基于 [al-folio](https://github.com/alshedivat/al-folio) 的独立学术主页仓库。
 
 - 本地目录：`/home/jixia/JeanLew01.github.io`
-- 计划中的 GitHub 仓库：`JeanLew01/JeanLew01.github.io`
-- 发布后的网站地址：`https://jeanlew01.github.io`
+- GitHub 仓库：`JeanLew01/JeanLew01.github.io`
+- 网站地址：`https://jeanlew01.github.io`
 - 主题来源：al-folio `main`，提交 `8ec1f3608d997491e0206c4e7a9368547a5ef255`；核心 gem 固定为 `1.0.15`。
 
-已根据 2026 年 9 月的简历填写个人简介、研究方向、6 篇论文、教育与任职、奖项、教学、学术服务、指导经历和报告。导航为 About / Publications / Research / Teaching & Service / CV。首页底部已配置邮箱、GitHub、知乎、Google Scholar 和 LinkedIn 链接。头像和 PDF 简历尚待提供；PDF 上传方式见 [SETUP.md](SETUP.md#3-更新个人资料)。
+已根据 2026 年 9 月的简历填写个人简介、研究方向、6 篇论文、教育与任职、奖项、教学、学术服务、指导经历和报告。导航为 About / Publications / Research / Teaching & Service / CV。首页底部已配置邮箱、GitHub、知乎、Google Scholar 和 LinkedIn 链接。头像、4 篇精选论文的预览图和 PDF 简历已接入；资源更新方式见 [SETUP.md](SETUP.md#3-更新个人资料)。
 
 ## 常用编辑入口
 

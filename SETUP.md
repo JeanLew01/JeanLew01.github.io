@@ -11,7 +11,7 @@ baseurl: ""
 
 个人主页使用空 `baseurl`。上游文档里的 `/al-folio` 是主题演示站的路径，不适用于本仓库。
 
-GitHub 远程仓库和线上站点需要完成下列步骤后才会存在。当前目录里的 `origin` 仅配置了目标地址，不代表远程仓库已经创建。
+GitHub 远程仓库 `JeanLew01/JeanLew01.github.io` 和线上站点已发布。以下首次配置步骤保留供参考；日常更新提交到 `main` 后会自动部署。
 
 ## 1. 创建 GitHub 远程仓库并上传
 
@@ -62,9 +62,9 @@ git push -u origin main
 ## 3. 更新个人资料
 
 - **个人简介**：编辑 `_pages/about.md`，更新单位、研究方向和个人介绍。现有内容来自 2026 年 9 月简历。
-- **头像**：添加 `assets/img/profile.jpg`，将 `_pages/about.md` 的 `profile.image` 改为 `profile.jpg`。
+- **头像**：已启用 `assets/img/profile.jpg`，替换同名文件即可更新。更换文件名时，同步修改 `_pages/about.md` 的 `profile.image`。
 - **联系方式**：编辑 `_data/socials.yml`，更新邮箱、Google Scholar ID 等。邮箱已填写为简历中的 `jliu376@jh.edu`。
-- **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 6 篇论文按会议、预印本和期刊分组；4 篇控制与可达性论文已标为首页精选。新增论文需保持作者、年份和发表状态准确。
+- **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 6 篇论文按会议、预印本和期刊分组；4 篇控制与可达性论文已标为首页精选，并配置预览图。图片放在 `assets/img/publication_preview/`，在对应论文条目中添加 `preview = {图片文件名.png},`。新增论文需保持作者、年份和发表状态准确。
 - **研究概览**：编辑 `_pages/research.md`。
 - **教学与服务**：编辑 `_pages/teaching-service.md`，同步更新 `_data/cv.yml` 中的对应记录。
 - **项目**：`/projects/` 目前不在导航中。如需启用项目列表，在 `_pages/projects.md` 将 `nav` 改为 `true`，然后在 `_projects/` 创建 Markdown 文件，例如：
@@ -80,7 +80,7 @@ importance: 1
 项目内容与链接。
 ```
 
-- **简历**：编辑 `_data/cv.yml`；`assets/json/resume.json` 仅保留同步的联系方式，在线简历以 `_data/cv.yml` 为准。上传 PDF 时，在 GitHub 仓库的 `main` 分支打开 `assets/pdf/`，选择 **Add file → Upload files**，上传命名为 `cv.pdf` 的文件并提交。部署完成后，首页正文中的 CV 链接会自动指向 `/assets/pdf/cv.pdf`；文件上传前，该链接指向在线简历 `/cv/`。如需在在线简历页同时显示 PDF 下载按钮，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
+- **简历**：编辑 `_data/cv.yml`；`assets/json/resume.json` 仅保留同步的联系方式，在线简历以 `_data/cv.yml` 为准。PDF 使用 `assets/pdf/CV_Jixian.pdf`，首页正文中的 CV 链接和在线简历页的下载按钮均已连接该文件。更新 PDF 时，在 GitHub 仓库的 `main` 分支打开 `assets/pdf/`，选择 **Add file → Upload files**，上传同名文件并提交。更换文件名时，同步修改 `_pages/about.md` 中的 PDF 路径及 `_pages/cv.md` 的 `cv_pdf`；文件名大小写需一致。
 - **博客与新闻**：目前入口隐藏，示例内容已清空。需要时可按 `docs/CUSTOMIZE.md` 恢复页面和首页的 `latest_posts` / `announcements` 开关。
 
 示例人物资料、外部博客订阅、演示论文、照片和 CV 已移除。图片自动生成 WebP 的功能暂时关闭；需要时安装 ImageMagick 并启用 `_config.yml` 的 `imagemagick.enabled`。

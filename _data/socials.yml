@@ -13,5 +13,5 @@ linkedin:
   logo: fa-brands fa-linkedin
   title: LinkedIn
   url: https://www.linkedin.com/in/jixian-liu-3b8194294/
-# Add a PDF CV when available.
-# cv_pdf: /assets/pdf/cv.pdf
+# Uncomment to also include the PDF CV in this social row.
+# cv_pdf: /assets/pdf/CV_Jixian.pdf
