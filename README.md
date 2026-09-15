@@ -7,7 +7,7 @@
 - 发布后的网站地址：`https://jeanlew01.github.io`
 - 主题来源：al-folio `main`，提交 `8ec1f3608d997491e0206c4e7a9368547a5ef255`；核心 gem 固定为 `1.0.15`。
 
-已根据 2026 年 9 月的简历填写个人简介、研究方向、6 篇论文、教育与任职、奖项、教学、学术服务、指导经历和报告。导航为 About / Publications / Research / Teaching & Service / CV。首页底部已配置邮箱、GitHub、知乎和 Google Scholar 链接。头像和 PDF 简历尚待提供。
+已根据 2026 年 9 月的简历填写个人简介、研究方向、6 篇论文、教育与任职、奖项、教学、学术服务、指导经历和报告。导航为 About / Publications / Research / Teaching & Service / CV。首页底部已配置邮箱、GitHub、知乎、Google Scholar 和 LinkedIn 链接。头像和 PDF 简历尚待提供；PDF 上传方式见 [SETUP.md](SETUP.md#3-更新个人资料)。
 
 ## 常用编辑入口
 

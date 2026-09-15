@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student · Electrical and Computer Engineering · Johns Hopkins University
+subtitle: Third-year Ph.D. Student · DSAI · Johns Hopkins University
 
 profile:
   align: right
@@ -26,20 +26,11 @@ latest_posts:
 
 <link rel="stylesheet" href="{{ '/assets/css/social-icons.css' | relative_url | bust_file_cache }}">
 
-I study safe and reliable autonomous systems at the intersection of **control theory, robotics, and machine learning**.
+I'm a third-year Ph.D. student at the [Data Science and AI Institute (DSAI)](https://ai.jhu.edu/), [Johns Hopkins University](https://www.jhu.edu/), advised by [Prof. Enrique Mallada](https://mallada.ece.jhu.edu/). I have broad research interests in robotics, control, and verifiable autonomous systems. I am currently developing data-driven, learning-based, and generative methods for safety verification, particularly for complex systems where exact computation is intractable and guarantees must be obtained from limited data drawn from complex distributions. My research is generously supported in part by the [2026 JHU MINDS Fellowship](https://www.minds.jhu.edu/awards/minds-data-science-fellowships/).
 
-My research develops **data-driven, learning-based, and generative methods for safety verification**, particularly for complex systems where exact computation is intractable and guarantees must be obtained from limited data drawn from complex distributions.
+I received my B.Sc. degree from the [School of Physics](https://phy.xjtu.edu.cn/English/Home.htm) at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), ranking 1st out of 95 students, and was honored as one of the Top-10 Undergraduate Students of the Year.
 
-Using **system symmetries, structural inductive biases, and compact latent representations**, I aim to enable real-time, data-efficient safety verification that can be deployed in real-world robotic systems.
+{% assign uploaded_cv = site.static_files | where: 'path', '/assets/pdf/cv.pdf' | first %}
+{% assign cv_url = uploaded_cv.path | default: '/cv/' %}
 
-I am advised by [Enrique Mallada](https://mallada.ece.jhu.edu/). Before coming to Johns Hopkins, I completed a B.S. degree in Physics at Xi’an Jiaotong University.
-
-See my [research overview]({{ '/research/' | relative_url }}) and [publications]({{ '/publications/' | relative_url }}) for more details.
-
-### Recent honors
-
-- **Amazon AI Fellowship**, 2026
-- **Mathematical Institute for Data Science Fellowship**, 2026
-- **ACC Travel Grant**, 2026
-
-My [CV]({{ '/cv/' | relative_url }}) includes my education, appointments, awards, teaching, and academic service.
+More information can be found in my [CV]({{ cv_url | relative_url }}).

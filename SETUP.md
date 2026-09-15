@@ -80,7 +80,7 @@ importance: 1
 项目内容与链接。
 ```
 
-- **简历**：编辑 `_data/cv.yml`；`assets/json/resume.json` 仅保留同步的联系方式，在线简历以 `_data/cv.yml` 为准。如需 PDF 下载，把文件放到 `assets/pdf/cv.pdf`，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
+- **简历**：编辑 `_data/cv.yml`；`assets/json/resume.json` 仅保留同步的联系方式，在线简历以 `_data/cv.yml` 为准。上传 PDF 时，在 GitHub 仓库的 `main` 分支打开 `assets/pdf/`，选择 **Add file → Upload files**，上传命名为 `cv.pdf` 的文件并提交。部署完成后，首页正文中的 CV 链接会自动指向 `/assets/pdf/cv.pdf`；文件上传前，该链接指向在线简历 `/cv/`。如需在在线简历页同时显示 PDF 下载按钮，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
 - **博客与新闻**：目前入口隐藏，示例内容已清空。需要时可按 `docs/CUSTOMIZE.md` 恢复页面和首页的 `latest_posts` / `announcements` 开关。
 
 示例人物资料、外部博客订阅、演示论文、照片和 CV 已移除。图片自动生成 WebP 的功能暂时关闭；需要时安装 ImageMagick 并启用 `_config.yml` 的 `imagemagick.enabled`。
