@@ -3,14 +3,14 @@ layout: page
 title: projects
 permalink: /projects/
 description: Research projects.
-nav: true
+nav: false
 nav_order: 3
 display_categories: []
 horizontal: false
 ---
 
 {% if site.projects.size == 0 %}
-Projects will be added soon.
+My current research is described on the [research page]({{ '/research/' | relative_url }}).
 {% endif %}
 
 <div class="projects">

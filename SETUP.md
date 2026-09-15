@@ -59,13 +59,15 @@ git push -u origin main
 
 后续把更新推送到 `main` 后，工作流会重新构建并发布。
 
-## 3. 填写个人资料
+## 3. 更新个人资料
 
-- **个人简介**：编辑 `_pages/about.md`，把占位段落换成单位、研究方向和个人介绍。
+- **个人简介**：编辑 `_pages/about.md`，更新单位、研究方向和个人介绍。现有内容来自 2026 年 9 月简历。
 - **头像**：添加 `assets/img/profile.jpg`，将 `_pages/about.md` 的 `profile.image` 改为 `profile.jpg`。
-- **联系方式**：编辑 `_data/socials.yml`，添加准备公开的邮箱、Google Scholar ID 等。
-- **论文**：把真实论文 BibTeX 加入 `_bibliography/papers.bib`。填写后删除 `_pages/publications.md` 中的占位描述。论文页会自动渲染列表；要在首页显示精选论文，将条目标为 `selected = {true}`，并把首页的 `selected_papers` 设为 `true`。
-- **项目**：在 `_projects/` 创建 Markdown 文件，例如：
+- **联系方式**：编辑 `_data/socials.yml`，更新邮箱、Google Scholar ID 等。邮箱已填写为简历中的 `jliu376@jh.edu`。
+- **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 6 篇论文按会议、预印本和期刊分组；4 篇控制与可达性论文已标为首页精选。新增论文需保持作者、年份和发表状态准确。
+- **研究概览**：编辑 `_pages/research.md`。
+- **教学与服务**：编辑 `_pages/teaching-service.md`，同步更新 `_data/cv.yml` 中的对应记录。
+- **项目**：`/projects/` 目前不在导航中。如需启用项目列表，在 `_pages/projects.md` 将 `nav` 改为 `true`，然后在 `_projects/` 创建 Markdown 文件，例如：
 
 ```markdown
 ---
@@ -78,7 +80,7 @@ importance: 1
 项目内容与链接。
 ```
 
-- **简历**：编辑 `_data/cv.yml`；如需 PDF 下载，把文件放到 `assets/pdf/cv.pdf`，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
+- **简历**：编辑 `_data/cv.yml`；`assets/json/resume.json` 仅保留同步的联系方式，在线简历以 `_data/cv.yml` 为准。如需 PDF 下载，把文件放到 `assets/pdf/cv.pdf`，将 `_pages/cv.md` 的 `cv_pdf` 设为 `/assets/pdf/cv.pdf`。
 - **博客与新闻**：目前入口隐藏，示例内容已清空。需要时可按 `docs/CUSTOMIZE.md` 恢复页面和首页的 `latest_posts` / `announcements` 开关。
 
 示例人物资料、外部博客订阅、演示论文、照片和 CV 已移除。图片自动生成 WebP 的功能暂时关闭；需要时安装 ImageMagick 并启用 `_config.yml` 的 `imagemagick.enabled`。

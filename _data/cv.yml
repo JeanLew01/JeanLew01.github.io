@@ -1,7 +1,122 @@
 cv:
   name: Jixian Liu
-  summary: Curriculum vitae will be added soon.
+  label: Graduate Research Assistant, Johns Hopkins University
+  email: jliu376@jh.edu
+  phone: "+1 4104990353"
   social_networks:
     - network: GitHub
       username: JeanLew01
-  sections: {}
+  sections:
+    Appointments:
+      - bullet: >-
+          **Graduate Research Assistant** — NetD-Lab, Data Science and AI Institute,
+          Johns Hopkins University. Advisor: Enrique Mallada. **Aug. 2025 – Present**.
+    Research Interests:
+      - bullet: Safety-Critical Control, Robotics, Robot Learning, Reinforcement Learning.
+    Education:
+      - institution: Johns Hopkins University
+        location: Baltimore, MD
+        degree: Ph.D.
+        area: Electrical and Computer Engineering
+        start_date: Aug. 2024
+        end_date: Present
+      - institution: Xi’an Jiaotong University
+        location: Xi’an, Shaanxi
+        degree: B.S.
+        area: Physics
+        start_date: Sept. 2020
+        end_date: Jul. 2024
+    Honors and Awards:
+      - title: Amazon AI Fellowship
+        date: "2026"
+        summary: $152,000
+      - title: ACC Travel Grant
+        date: "2026"
+      - title: Mathematical Institute for Data Science Fellowship
+        date: "2026"
+        summary: $25,000
+      - title: Hong Kong Ph.D. Fellowship
+        date: "2024"
+        summary: Top Award for HK Ph.D. Applicants
+      - title: Dean’s Fellow Award, Boston University
+        date: "2024"
+        summary: Top Award for BU Ph.D. Applicants
+      - title: MITACS Globalink Research Internship Scholarship
+        date: "2023"
+        summary: C$7,000
+      - title: Top-10 Undergraduate Students of the Year
+        date: "2023"
+        summary: Top Individual Award in XJTU
+      - title: National Scholarship
+        date: "2022, 2023"
+        summary: Top 1%
+      - title: Finalist Winner, Mathematical Contest in Modeling
+        date: "2022"
+        summary: Top 2% around the World
+      - title: First Place in Shaanxi, The Chinese Mathematics Competitions
+        date: "2021"
+      - title: Presidential Scholarship of Xi’an Jiaotong University
+        date: "2021"
+    Publications:
+      - title: "On the Limits of Sampling-Based Reachability: Geometry, Dynamics, and Sample Complexity"
+        publisher: 10th Annual Conference on Robot Learning
+        date: "2026"
+        summary: "**Jixian Liu**, Ihab Tabbara, Hussein Sibai, and Enrique Mallada."
+      - title: Symplectic Inductive Bias for Data-Driven Target Reachability in Hamiltonian Systems
+        publisher: 65th IEEE Conference on Decision and Control
+        date: "2026"
+        summary: "Zhuo Ouyang, **Jixian Liu**, and Enrique Mallada."
+      - title: Safety-Critical Control via Recurrent Tracking Functions
+        publisher: American Control Conference
+        date: "2026"
+        summary: "**Jixian Liu** and Enrique Mallada."
+      - title: "Recurrent Control Barrier Functions: A Path Towards Nonparametric Safety Verification"
+        publisher: 64th IEEE Conference on Decision and Control
+        date: "2025"
+        summary: "**Jixian Liu** and Enrique Mallada."
+      - title: "Smart Predict-then-Optimize Method with Dependent Data: Risk Bounds and Calibration of Autoregression"
+        publisher: "arXiv preprint arXiv:2411.12653"
+        date: "2024"
+        summary: "**Jixian Liu**, Tao Xu, Jianping He, and Chongrong Fang."
+      - title: "Enabling Net Zero Energy Buildings With Shared Storage: A Cyber-Physical Perspective"
+        publisher: IEEE Internet of Things Journal
+        date: "2023"
+        summary: "Xueyuan Cui, **Jixian Liu**, and Yao Zhou."
+    Academic Services:
+      - bullet: "**Journal reviewer:** IET Renewable Power Generation Journal; IEEE Control Systems Letters."
+      - bullet: "**Conference reviewer:** American Control Conference (2026)."
+      - bullet: "**Conference reviewer:** IEEE Conference on Decision and Control (2026)."
+      - bullet: "**Conference reviewer:** China Automation Congress (2024)."
+    Teaching:
+      - bullet: "**Teaching Assistant**, Control System Design, Johns Hopkins University — Fall 2025."
+      - bullet: "**Teaching Assistant**, Foundation of Reinforcement Learning (Online), Johns Hopkins University — Fall 2025, Fall 2026."
+    Advising and Mentoring:
+      - bullet: >-
+          **Zhuo Ouyang** — Undergraduate student, College of Engineering, Peking University.
+          Next position: CS Ph.D. at UIUC (advisors: Tong Zhang and Nan Jiang).
+    Presentations:
+      - bullet: >-
+          **Talk · May 2026:** “Safety-Critical Control via Recurrent Tracking Functions,”
+          American Control Conference, New Orleans, LA, USA.
+      - bullet: >-
+          **Talk · Dec. 2025:** “Recurrent Control Barrier Functions: A Path Towards Nonparametric Safety Verification,”
+          64th IEEE Conference on Decision and Control, Rio de Janeiro, RJ, Brazil.
+      - bullet: >-
+          **Talk · Oct. 2025:** “Recurrence is All You Need: From Parametric to Nonparametric Safety,”
+          Institute for Assured Autonomy Graduate Student Lightning Talks, Baltimore, MD, USA.
+      - bullet: >-
+          **Poster · May 2025:** “Recurrent Control Barrier Functions: A Path Towards Nonparametric Safety Verification,”
+          2nd Northeast Systems and Control Workshop, NYC, USA.
+    References:
+      - name: Enrique Mallada
+        reference: >-
+          Ph.D. Advisor. Associate Professor, Department of Electrical and Computer Engineering,
+          Johns Hopkins University, Baltimore, MD.
+      - name: Jianping He
+        reference: >-
+          Professor, School of Automation and Intelligent Sensing,
+          Shanghai Jiao Tong University, Shanghai, SH.
+      - name: Xiaoming Duan
+        reference: >-
+          Associate Professor, School of Automation and Intelligent Sensing,
+          Shanghai Jiao Tong University, Shanghai, SH.

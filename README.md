@@ -7,20 +7,21 @@
 - 发布后的网站地址：`https://jeanlew01.github.io`
 - 主题来源：al-folio `main`，提交 `8ec1f3608d997491e0206c4e7a9368547a5ef255`；核心 gem 固定为 `1.0.15`。
 
-已配置姓名、GitHub 链接、个人主页根路径，以及 About / Publications / Projects / CV 导航。简介、论文、项目、照片和简历需填入真实资料。
+已根据 2026 年 9 月的简历填写个人简介、研究方向、6 篇论文、教育与任职、奖项、教学、学术服务、指导经历和报告。导航为 About / Publications / Research / Teaching & Service / CV。头像、Google Scholar ID 和 PDF 简历尚待提供。
 
 ## 常用编辑入口
 
-| 内容                     | 文件                       |
-| ------------------------ | -------------------------- |
-| 姓名、网站地址、主题开关 | `_config.yml`              |
-| 个人简介、单位、研究方向 | `_pages/about.md`          |
-| 邮箱、Google Scholar     | `_data/socials.yml`        |
-| 论文 BibTeX              | `_bibliography/papers.bib` |
-| 项目                     | `_projects/`               |
-| 在线简历                 | `_data/cv.yml`             |
-| 头像                     | `assets/img/`              |
-| PDF 简历                 | `assets/pdf/`              |
+| 内容                     | 文件                         |
+| ------------------------ | ---------------------------- |
+| 姓名、网站地址、主题开关 | `_config.yml`                |
+| 个人简介、单位、研究方向 | `_pages/about.md`            |
+| 邮箱、Google Scholar     | `_data/socials.yml`          |
+| 论文 BibTeX              | `_bibliography/papers.bib`   |
+| 研究概览                 | `_pages/research.md`         |
+| 教学与服务               | `_pages/teaching-service.md` |
+| 在线简历                 | `_data/cv.yml`               |
+| 头像                     | `assets/img/`                |
+| PDF 简历                 | `assets/pdf/`                |
 
 创建远程仓库、首次发布和本地预览步骤见 [SETUP.md](SETUP.md)。主题完整文档保留在 [docs/](docs/README.md)。
 
