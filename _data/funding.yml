@@ -1,0 +1,26 @@
+- id: amazon
+  title: Amazon AI Fellowship
+  image: /assets/img/funding/AmazonAI.png
+  image_alt: Amazon Science
+  image_width: 791
+  image_height: 282
+  description: >-
+    This project aims to make embodied AI safer and more adaptable by developing
+    safety certificates in the latent spaces of generative world models. It combines
+    recurrence, reachability, and barrier functions with physics-informed and
+    symplectic representations, action chunking and chaining, and adaptive exploration
+    near safety boundaries to support robust generalization beyond imitation.
+
+- id: minds
+  title: 2026 JHU MINDS Fellowship
+  image: /assets/img/funding/JHUMINDS.png
+  image_alt: Diagram of control-invariant and recurrent sets, an unsafe set, and system trajectories
+  image_width: 610
+  image_height: 338
+  description: >-
+    This project aims to develop a nonparametric framework for safety verification
+    in high-dimensional dynamical systems using recurrence, recurrent sets, and
+    recurrent control barrier functions. It investigates information-theoretic limits
+    and adaptive sampling, while studying online certificate updates to reduce
+    conservatism and support real-time safety verification as new observations
+    become available.

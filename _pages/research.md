@@ -11,6 +11,29 @@ I study safe and reliable autonomous systems at the intersection of control theo
 
 Using system symmetries, structural inductive biases, and compact latent representations, I aim to enable real-time, data-efficient safety verification that can be deployed in real-world robotic systems.
 
+## Funding Projects
+
+<div class="funding-projects">
+  {% for funding in site.data.funding %}
+    <article class="funding-card" aria-labelledby="funding-{{ funding.id }}">
+      <div class="funding-card-media funding-card-media--{{ funding.id }}">
+        <img
+          src="{{ funding.image | relative_url | bust_file_cache }}"
+          alt="{{ funding.image_alt | escape }}"
+          width="{{ funding.image_width }}"
+          height="{{ funding.image_height }}"
+          loading="lazy"
+          decoding="async"
+        >
+      </div>
+      <div class="funding-card-body">
+        <h3 id="funding-{{ funding.id }}">{{ funding.title | escape }}</h3>
+        <p>{{ funding.description | escape }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
 ## Selected related work
 
 ### Reachability and sample complexity

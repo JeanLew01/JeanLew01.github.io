@@ -63,10 +63,12 @@ git push -u origin main
 
 - **配色**：全站采用海军蓝与青绿色，浅色和深色模式的颜色集中在 `assets/css/navy-teal.css`。`assets/css/main.scss` 保留核心主题的样式入口并在末尾加载本站配色；升级 `al_folio_core` 时需检查入口差异，并运行 `bundle exec al-folio upgrade overrides audit --fail-on-stale`。
 - **个人简介**：编辑 `_pages/about.md`，更新单位、研究方向和个人介绍。现有内容来自 2026 年 9 月简历。
+- **首页板块顺序**：精选论文在 `_pages/about.md` 中通过 `{% include selected_papers.liquid %}` 渲染，后接 Misc。保留 `selected_papers: false`，避免主题再次输出精选论文。
 - **头像**：已启用 `assets/img/profile.jpg`，替换同名文件即可更新。更换文件名时，同步修改 `_pages/about.md` 的 `profile.image`。
 - **联系方式**：编辑 `_data/socials.yml`，更新邮箱、Google Scholar ID 等。邮箱已填写为简历中的 `jliu376@jh.edu`。
 - **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 6 篇论文按会议、预印本和期刊分组；4 篇控制与可达性论文已标为首页精选，并配置预览图。图片放在 `assets/img/publication_preview/`，在对应论文条目中添加 `preview = {图片文件名.png},`。新增论文需保持作者、年份和发表状态准确。
 - **研究概览**：编辑 `_pages/research.md`。
+- **Funding Projects**：编辑 `_data/funding.yml` 中的项目名称、约 50 词介绍和图片信息。图片放在 `assets/img/funding/`，卡片样式在 `assets/css/funding.css`；桌面双列、手机单列。
 - **教学与服务**：编辑 `_pages/teaching-service.md`，同步更新 `_data/cv.yml` 中的对应记录。
 - **项目**：`/projects/` 目前不在导航中。如需启用项目列表，在 `_pages/projects.md` 将 `nav` 改为 `true`，然后在 `_projects/` 创建 Markdown 文件，例如：
 

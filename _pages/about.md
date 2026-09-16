@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: true
+selected_papers: false # Rendered in the content below so Misc follows the publications.
 social: true
 
 announcements:
@@ -34,6 +34,12 @@ I received my B.Sc. degree from the [School of Physics](https://phy.xjtu.edu.cn/
 {% assign cv_url = uploaded_cv.path | default: '/cv/' %}
 
 More information can be found in my [CV]({{ cv_url | relative_url }}).
+
+<h2 id="selected-publications" style="clear: both;">
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+</h2>
+
+{% include selected_papers.liquid %}
 
 ## Misc
 
