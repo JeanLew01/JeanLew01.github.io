@@ -62,7 +62,7 @@ More information can be found in my [CV]({{ cv_url | relative_url }}).
 </div>
 
 <h2 id="selected-publications" style="clear: both;">
-  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
 </h2>
 
 {% include selected_papers.liquid %}
