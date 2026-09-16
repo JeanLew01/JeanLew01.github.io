@@ -34,6 +34,7 @@ latest_posts:
 <link rel="stylesheet" href="{{ '/assets/css/social-icons.css' | relative_url | bust_file_cache }}">
 <link rel="stylesheet" href="{{ '/assets/css/name-font.css' | relative_url | bust_file_cache }}">
 <link rel="stylesheet" href="{{ '/assets/css/profile-quote.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" href="{{ '/assets/css/misc-icons.css' | relative_url | bust_file_cache }}">
 
 I'm a third-year Ph.D. student at the [Data Science and AI Institute (DSAI)](https://ai.jhu.edu/), [Johns Hopkins University](https://www.jhu.edu/), advised by [Prof. Enrique Mallada](https://mallada.ece.jhu.edu/). I have broad research interests in robotics, control, and verifiable autonomous systems. I am currently developing data-driven, learning-based, and generative methods for safety verification, particularly for complex systems where exact computation is intractable and guarantees must be obtained from limited data drawn from complex distributions. My research is generously supported in part by the [2026 JHU MINDS Fellowship](https://www.minds.jhu.edu/awards/minds-data-science-fellowships/).
 
@@ -52,4 +53,4 @@ More information can be found in my [CV]({{ cv_url | relative_url }}).
 
 ## Misc
 
-Outside of research, I enjoy coding, long-distance running, and basketball. My personal bests are **37 min 45 s for 10 km** and **18 min 15 s for 5 km**. I'm also a fan of the **Linus B. Torvalds** and **Stephen Curry**.
+Outside of research, I enjoy coding, long-distance running, and basketball. My personal bests are **37 min 45 s for 10 km** and **18 min 15 s for 5 km**. I'm also a fan of <strong class="misc-fan"><img class="misc-logo misc-logo-linux" src="{{ '/assets/img/misc/linux-tux.png' | relative_url }}" alt="Linux" width="24" height="24" loading="lazy">Linus B. Torvalds</strong> and <strong class="misc-fan"><img class="misc-logo" src="{{ '/assets/img/misc/golden-state-warriors.svg' | relative_url }}" alt="Golden State Warriors" width="24" height="24" loading="lazy">Stephen Curry</strong>.
