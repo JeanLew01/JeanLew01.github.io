@@ -14,6 +14,16 @@
   font-display: swap;
 }
 
+.post > article > .profile {
+  margin-top: -0.5rem;
+}
+
+@media (min-width: 992px) {
+  .post > article > .profile {
+    margin-top: -1.5rem;
+  }
+}
+
 .profile .profile-quote {
   margin: 1rem 0 1.5rem;
   text-align: center;
@@ -31,7 +41,7 @@
   margin: 0;
   color: var(--global-text-color);
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-style: italic;
   font-weight: 400;
   font-synthesis: none;
