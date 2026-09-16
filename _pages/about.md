@@ -52,4 +52,4 @@ More information can be found in my [CV]({{ cv_url | relative_url }}).
 
 ## Misc
 
-Outside of research, I enjoy long-distance running and basketball. My personal bests are **37 min 45 s for 10 km** and **18 min 15 s for 5 km**. I'm also a fan of the **Golden State Warriors** and **Stephen Curry**.
+Outside of research, I enjoy coding, long-distance running, and basketball. My personal bests are **37 min 45 s for 10 km** and **18 min 15 s for 5 km**. I'm also a fan of the **Linus B. Torvalds** and **Stephen Curry**.
