@@ -12,9 +12,9 @@ profile:
   more_info: |
     <figure class="profile-quote">
       <blockquote>
-        <p>“If it fails, admit it frankly and try another. But above all, try something”</p>
+        <p>If it fails, admit it frankly and try another. But above all, try something.</p>
       </blockquote>
-      <figcaption>— <cite>F.D.R</cite></figcaption>
+      <figcaption>— <cite>F.D.R.</cite></figcaption>
     </figure>
 
 selected_papers: false # Rendered in the content below so Misc follows the publications.
