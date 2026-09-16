@@ -1,0 +1,103 @@
+/* Navy headings, teal accents, and a cool neutral background. */
+:root {
+  --global-bg-color: #f7fafc;
+  --global-code-bg-color: #eaf1f5;
+  --global-text-color: #20364d;
+  --global-text-color-light: #526779;
+  --global-theme-color: #0f766e;
+  --global-hover-color: #115e59;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #173452;
+  --global-footer-text-color: #c5d8e5;
+  --global-footer-link-color: #e6f8f5;
+  --global-distill-app-color: #526779;
+  --global-divider-color: #d3dfe7;
+  --global-card-bg-color: #ffffff;
+  --global-back-to-top-bg-color: #173452;
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #ffffff;
+  --global-newsletter-text-color: #20364d;
+  --site-heading-color: #173452;
+  --site-footer-hover-color: #89ded4;
+  --site-selection-bg-color: #ccece7;
+  --site-selection-text-color: #173452;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #101c2b;
+  --global-code-bg-color: #1b3045;
+  --global-text-color: #e2ecf3;
+  --global-text-color-light: #a9bbc9;
+  --global-theme-color: #61cfc5;
+  --global-hover-color: #91e0d6;
+  --global-hover-text-color: #101c2b;
+  --global-footer-bg-color: #0b1522;
+  --global-footer-text-color: #a9bbc9;
+  --global-footer-link-color: #cfefeb;
+  --global-distill-app-color: #a9bbc9;
+  --global-divider-color: #2a4054;
+  --global-card-bg-color: #162638;
+  --global-back-to-top-bg-color: #61cfc5;
+  --global-back-to-top-text-color: #101c2b;
+  --global-newsletter-bg-color: #162638;
+  --global-newsletter-text-color: #e2ecf3;
+  --site-heading-color: #edf5fb;
+  --site-footer-hover-color: #91e0d6;
+  --site-selection-bg-color: #275c64;
+  --site-selection-text-color: #f0fbfa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.navbar.navbar-light .navbar-brand {
+  color: var(--site-heading-color);
+}
+
+.post-title span {
+  color: inherit;
+}
+
+.navbar {
+  background-color: var(--global-card-bg-color);
+}
+
+.publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
+
+.publications ol.bibliography li .abbr abbr a {
+  color: var(--global-hover-text-color);
+}
+
+.publications ol.bibliography li .links a.btn {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  background-color: transparent;
+}
+
+.publications ol.bibliography li .links a.btn:hover,
+.publications ol.bibliography li .links a.btn:focus-visible {
+  color: var(--global-hover-text-color);
+  border-color: var(--global-hover-color);
+  background-color: var(--global-hover-color);
+}
+
+footer.fixed-bottom a:hover,
+footer.fixed-bottom a:focus-visible {
+  color: var(--site-footer-hover-color);
+}
+
+::selection {
+  color: var(--site-selection-text-color);
+  background-color: var(--site-selection-bg-color);
+}
+
+::highlight(search) {
+  color: var(--global-hover-text-color);
+  background-color: var(--global-theme-color);
+}

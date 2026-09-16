@@ -61,6 +61,7 @@ git push -u origin main
 
 ## 3. 更新个人资料
 
+- **配色**：全站采用海军蓝与青绿色，浅色和深色模式的颜色集中在 `assets/css/navy-teal.css`。`assets/css/main.scss` 保留核心主题的样式入口并在末尾加载本站配色；升级 `al_folio_core` 时需检查入口差异，并运行 `bundle exec al-folio upgrade overrides audit --fail-on-stale`。
 - **个人简介**：编辑 `_pages/about.md`，更新单位、研究方向和个人介绍。现有内容来自 2026 年 9 月简历。
 - **头像**：已启用 `assets/img/profile.jpg`，替换同名文件即可更新。更换文件名时，同步修改 `_pages/about.md` 的 `profile.image`。
 - **联系方式**：编辑 `_data/socials.yml`，更新邮箱、Google Scholar ID 等。邮箱已填写为简历中的 `jliu376@jh.edu`。
