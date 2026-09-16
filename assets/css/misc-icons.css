@@ -17,6 +17,6 @@ html[data-theme="dark"] .misc-logo-linux {
   filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.65));
 }
 
-html[data-theme="dark"] .misc-logo[src$="/oregon-project.png"] {
+html[data-theme="dark"] .misc-logo-oregon {
   filter: brightness(0) invert(1);
 }
