@@ -65,7 +65,18 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// This personal site keeps one acknowledged layout override for the bilingual name.
+if (exists("_layouts")) {
+  const entries = fs.readdirSync(path.join(root, "_layouts"), { withFileTypes: true });
+  if (entries.some((entry) => !entry.isFile() || entry.name !== "about.liquid")) {
+    failures.push("Only the personal site's `_layouts/about.liquid` override is allowed.");
+  }
+  if (!exists(".al-folio-overrides.yml") || !/^  _layouts\/about\.liquid:\s*$/m.test(read(".al-folio-overrides.yml"))) {
+    failures.push("The personal about layout must be acknowledged in `.al-folio-overrides.yml`.");
+  }
+}
+
+for (const forbiddenPath of ["_includes", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }

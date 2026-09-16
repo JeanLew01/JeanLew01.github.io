@@ -12,6 +12,7 @@
 - Keep unknown biography, publications, and CV details empty until supplied by the owner.
 - Setup and publishing instructions: [SETUP.md](SETUP.md).
 - The integration tests and visual snapshots inherited from upstream target its demo content; run checks relevant to the personal site.
+- This personal site intentionally overrides `_layouts/about.liquid` to render a bilingual name. Keep that override minimal and acknowledged in `.al-folio-overrides.yml`; the local style check allows this single layout. Other runtime directories remain subject to the starter boundaries below.
 
 ## Route your change
 
