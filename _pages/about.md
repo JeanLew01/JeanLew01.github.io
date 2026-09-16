@@ -47,8 +47,8 @@ More information can be found in my [CV]({{ cv_url | relative_url }}).
 
 <h2 id="news" style="clear: both;">News</h2>
 
-- **Sept. 2026:** My academic page is online!
 - **Sept. 2026:** 1 paper is accepted by CoRL.
+- **Sept. 2026:** My academic page is online!
 
 <h2 id="selected-publications" style="clear: both;">
   <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
