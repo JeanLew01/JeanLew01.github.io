@@ -8,6 +8,10 @@
 
 /* This stylesheet is loaded only by the homepage. */
 .post > .post-header > .post-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.3em;
   font-family: "Freehand", "Segoe Script", "Brush Script MT", cursive;
   font-size: clamp(2.75rem, 5vw, 3.5rem);
   font-weight: 400;
@@ -15,6 +19,37 @@
   font-synthesis: none;
   line-height: 1.35;
   letter-spacing: normal;
+}
+
+.name-english,
+.name-chinese {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.name-chinese {
+  line-height: 1;
+}
+
+/* Original Slender Gold style lettering; the adjacent text stays accessible. */
+.name-chinese-wordmark {
+  display: block;
+  width: clamp(7.5rem, 13vw, 10.5rem);
+  aspect-ratio: 8 / 3;
+  background-color: currentColor;
+  -webkit-mask: url("../img/identity/liu-jixian-slender-gold.png") center / contain no-repeat;
+  mask: url("../img/identity/liu-jixian-slender-gold.png") center / contain no-repeat;
+}
+
+@media (max-width: 359px) {
+  .post > .post-header > .post-title {
+    font-size: 2.35rem;
+    column-gap: 0.2em;
+  }
+
+  .name-chinese-wordmark {
+    width: 6.5rem;
+  }
 }
 
 /* The theme wraps the first name in a bold utility class. */
