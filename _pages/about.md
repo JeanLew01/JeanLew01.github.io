@@ -7,7 +7,7 @@ chinese_name: 刘济衔
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile_1.jpg
   image_circular: false
   more_info: |
     <figure class="profile-quote">
