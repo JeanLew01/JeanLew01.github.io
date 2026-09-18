@@ -28,9 +28,10 @@ cv:
         start_date: Sept. 2020
         end_date: Jul. 2024
     Honors and Awards:
-      - title: Amazon AI Fellowship
-        date: "2026"
-        summary: $155,000
+      # Temporarily hidden at the site owner's request. Uncomment to restore.
+      # - title: Amazon AI Fellowship
+      #   date: "2026"
+      #   summary: $155,000
       - title: ACC Travel Grant
         date: "2026"
       - title: Mathematical Institute for Data Science Fellowship
