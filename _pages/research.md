@@ -13,31 +13,31 @@ Using system symmetries, structural inductive biases, and compact latent represe
 
 ## Research Overview
 
-<figure>
-  <img
-    src="{{ '/assets/img/research/reasearch_summary_1.png' | relative_url | bust_file_cache }}"
-    alt="Research challenges in robot learning: safety with limited data and task-dependent safety beyond collision avoidance."
-    width="1121"
-    height="629"
-    loading="lazy"
-    decoding="async"
-    style="display: block; width: 80%; height: auto; border-radius: 0.5rem;"
-  >
-  <figcaption>Safety challenges in robot learning: limited data and compute, and safety requirements that vary across tasks.</figcaption>
-</figure>
+<div style="display: flex; justify-content: center; align-items: center; gap: 2%; margin: 1.5rem 0;">
+  <figure style="flex: 0 0 47%; min-width: 0; margin: 0;">
+    <img
+      src="{{ '/assets/img/research/reasearch_summary_1.png' | relative_url | bust_file_cache }}"
+      alt="Research challenges in robot learning: safety with limited data and task-dependent safety beyond collision avoidance."
+      width="1600"
+      height="900"
+      loading="lazy"
+      decoding="async"
+      style="display: block; width: 100%; height: auto; border-radius: 0.5rem;"
+    >
+  </figure>
 
-<figure>
-  <img
-    src="{{ '/assets/img/research/research_summary_2.gif' | relative_url | bust_file_cache }}"
-    alt="Animated research framework connecting labeled robot trajectories, diffusion models, latent-space safety verification, and physics-informed inductive biases."
-    width="1600"
-    height="900"
-    loading="lazy"
-    decoding="async"
-    style="display: block; width: 80%; height: auto; border-radius: 0.5rem;"
-  >
-  <figcaption>Data-efficient, task-aware safety verification in latent space, guided by physical structure and prior knowledge.</figcaption>
-</figure>
+  <figure style="flex: 0 0 47%; min-width: 0; margin: 0;">
+    <img
+      src="{{ '/assets/img/research/research_summary_2.gif' | relative_url | bust_file_cache }}"
+      alt="Animated research framework connecting labeled robot trajectories, diffusion models, latent-space safety verification, and physics-informed inductive biases."
+      width="1600"
+      height="900"
+      loading="lazy"
+      decoding="async"
+      style="display: block; width: 100%; height: auto; border-radius: 0.5rem;"
+    >
+  </figure>
+</div>
 
 My research asks how robots can obtain meaningful safety guarantees with limited data and computation, across tasks where safety extends beyond collision avoidance to preventing object damage, spills, and hazardous interactions. I investigate diffusion models that learn compact latent dynamics and unsafe regions from labeled robot trajectories, together with safety certificates and filters for efficient verification in these learned spaces. A central goal is to understand the fundamental data requirements for safety and how physical priors, such as energy conservation, symmetry, and equivariance, can reduce them. By combining these inductive biases with task-dependent safety specifications, I aim to develop robot learning and control methods that are both data-efficient and verifiably safe.
 

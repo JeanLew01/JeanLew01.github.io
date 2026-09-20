@@ -3,7 +3,8 @@ layout: page
 title: teaching & service
 permalink: /teaching-service/
 description: Teaching, academic reviewing, mentoring, and presentations.
-nav: true
+nav: false
+published: false
 nav_order: 4
 ---
 

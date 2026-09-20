@@ -42,10 +42,7 @@ I received my B.Sc. degree from the [School of Physics](https://phy.xjtu.edu.cn/
 
 I deeply value the philosophy of [Slow Science](http://slow-science.org/), though I find it increasingly difficult to embrace in practice at this stage.
 
-{% assign uploaded_cv = site.static_files | where: 'path', '/assets/pdf/CV_Jixian.pdf' | first %}
-{% assign cv_url = uploaded_cv.path | default: '/cv/' %}
-
-More information can be found in my [CV]({{ cv_url | relative_url }}).
+More information can be found in my [CV]({{ '/assets/pdf/CV_Jixian.pdf' | relative_url }}).
 
 <h2 id="news" style="clear: both;">News</h2>
 
