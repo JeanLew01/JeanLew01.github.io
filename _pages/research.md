@@ -21,7 +21,7 @@ Using system symmetries, structural inductive biases, and compact latent represe
     height="629"
     loading="lazy"
     decoding="async"
-    style="display: block; width: 100%; height: auto; border-radius: 0.5rem;"
+    style="display: block; width: 80%; height: auto; border-radius: 0.5rem;"
   >
   <figcaption>Safety challenges in robot learning: limited data and compute, and safety requirements that vary across tasks.</figcaption>
 </figure>
@@ -34,7 +34,7 @@ Using system symmetries, structural inductive biases, and compact latent represe
     height="900"
     loading="lazy"
     decoding="async"
-    style="display: block; width: 100%; height: auto; border-radius: 0.5rem;"
+    style="display: block; width: 80%; height: auto; border-radius: 0.5rem;"
   >
   <figcaption>Data-efficient, task-aware safety verification in latent space, guided by physical structure and prior knowledge.</figcaption>
 </figure>
