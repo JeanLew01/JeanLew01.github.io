@@ -42,7 +42,9 @@ I received my B.Sc. degree from the [School of Physics](https://phy.xjtu.edu.cn/
 
 I deeply value the philosophy of [Slow Science](http://slow-science.org/), though I find it increasingly difficult to embrace in practice at this stage.
 
+{% comment %}
 More information can be found in my [CV]({{ '/assets/pdf/CV_Jixian.pdf' | relative_url }}).
+{% endcomment %}
 
 <h2 id="news" style="clear: both;">News</h2>
 
