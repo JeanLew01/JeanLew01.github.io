@@ -1,16 +1,16 @@
 # Temporarily hidden at the site owner's request. Uncomment to restore.
-# - id: amazon
-#   title: Amazon AI Fellowship
-#   image: /assets/img/funding/AmazonAI.png
-#   image_alt: Amazon Science
-#   image_width: 791
-#   image_height: 282
-#   description: >-
-#     This project aims to make embodied AI safer and more adaptable by developing
-#     safety certificates in the latent spaces of generative world models. It combines
-#     recurrence, reachability, and barrier functions with physics-informed and
-#     symplectic representations, action chunking and chaining, and adaptive exploration
-#     near safety boundaries to support robust generalization beyond imitation.
+- id: amazon
+  title: Amazon AI Fellowship
+  image: /assets/img/funding/AmazonAI.png
+  image_alt: Amazon Science
+  image_width: 791
+  image_height: 282
+  description: >-
+    This project aims to make embodied AI safer and more adaptable by developing
+    safety certificates in the latent spaces of generative world models. It combines
+    recurrence, reachability, and barrier functions with physics-informed and
+    symplectic representations, action chunking and chaining, and adaptive exploration
+    near safety boundaries to support robust generalization beyond imitation.
 
 - id: minds
   title: 2026 JHU MINDS Fellowship
