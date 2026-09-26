@@ -22,6 +22,10 @@
   background-color: #ffffff;
 }
 
+.funding-card-media--amazon {
+  background-color: #171e28;
+}
+
 .funding-card-media img {
   display: block;
   width: 100%;
