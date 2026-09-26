@@ -8,7 +8,7 @@
   description: >-
     This project aims to make embodied AI safer and more adaptable by developing
     safety certificates in the latent spaces of generative world models. It combines
-    recurrence, reachability, and barrier functions with physics-informed and
+    sampling-based reachability, and barrier functions with physics-informed and
     symplectic representations, action chunking and chaining, and adaptive exploration
     near safety boundaries to support robust generalization beyond imitation.
 
@@ -19,9 +19,9 @@
   image_width: 610
   image_height: 338
   description: >-
-    This project aims to develop a nonparametric framework for safety verification
+    This project aims to develop a nonparametric framework and Monte Carlo methods for safety verification
     in high-dimensional dynamical systems using recurrence, recurrent sets, and
-    recurrent control barrier functions. It investigates information-theoretic limits
+    control barrier functions. It investigates information-theoretic limits
     and adaptive sampling, while studying online certificate updates to reduce
     conservatism and support real-time safety verification as new observations
     become available.
