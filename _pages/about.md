@@ -40,7 +40,7 @@ I'm a third-year Ph.D. candidate at the [Data Science and AI Institute (DSAI)](h
 
 I received my B.Sc. degree from the [School of Physics](https://phy.xjtu.edu.cn/English/Home.htm) at [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), ranking 1st out of 95 students, and was honored as one of the Top-10 Undergraduate Students of the Year.
 
-I deeply value the philosophy of [Slow Science](http://slow-science.org/), though I find it increasingly difficult to embrace in practice at this stage.
+I deeply value the philosophy of [Slow Science](http://slow-science.org/), though I find it increasingly difficult to embrace in practice at this stage. :)
 
 More information can be found in my [CV]({{ '/assets/pdf/CV_Jixian.pdf' | relative_url }}).
 
