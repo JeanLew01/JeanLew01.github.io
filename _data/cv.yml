@@ -88,11 +88,6 @@ cv:
         publisher: IEEE Internet of Things Journal
         date: "2023"
         summary: "Xueyuan Cui, **Jixian Liu**, and Yao Zhou."
-    Datasets and Benchmarks:
-      - title: "Agents’ Last Exam"
-        publisher: "arXiv preprint arXiv:2606.05405"
-        date: "2026"
-        summary: "Yiyou Sun, Xinyang Han, Weichen Zhang, …, **Jixian Liu**, Maojia Song, Ruheng Wang, Shengcao Cao, Yanxin Zhang, et al."
     Academic Services:
       - bullet: "**Journal reviewer:** IET Renewable Power Generation Journal; IEEE Control Systems Letters."
       - bullet: "**Conference reviewer:** American Control Conference (2026)."

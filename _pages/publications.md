@@ -23,8 +23,4 @@ nav_order: 2
 
 {% bibliography --query @article %}
 
-<h2>Datasets &amp; Benchmarks</h2>
-
-{% bibliography --query @misc[keywords=benchmark] %}
-
 </div>
