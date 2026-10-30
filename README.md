@@ -7,7 +7,7 @@ A standalone academic homepage repository based on [al-folio](https://github.com
 - Website: `https://jeanlew01.github.io`
 - Theme source: al-folio `main`, commit `8ec1f3608d997491e0206c4e7a9368547a5ef255`; core gems pinned to `1.0.15`.
 
-The biography, research interests, 6 publications, education and appointments, awards, teaching, academic service, mentoring, and talks are filled in from the September 2026 CV. The navigation is About / Publications / Research / Teaching & Service / CV. The homepage footer links to email, GitHub, Zhihu, Google Scholar, and LinkedIn. The profile photo, preview images for 4 selected publications, and the PDF CV are in place; see [SETUP.md](SETUP.md#3-更新个人资料) for how to update these assets.
+The biography, research interests, education and appointments, awards, teaching, academic service, mentoring, and talks are filled in from the September 2026 CV. The 8 publications and the PDF CV are updated from the October 2026 CV. The navigation is About / Publications / Research / Teaching & Service / CV. The homepage footer links to email, GitHub, Zhihu, Google Scholar, and LinkedIn. The profile photo and preview images for 4 selected publications are in place; see [SETUP.md](SETUP.md#3-更新个人资料) for how to update these assets.
 
 ## Where to edit
 

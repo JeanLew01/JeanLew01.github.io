@@ -60,6 +60,10 @@ cv:
       - title: Presidential Scholarship of Xi’an Jiaotong University
         date: "2021"
     Publications:
+      - title: "Fundamental Limits of Sampling-Based Reachability: Geometry and Flow Distortion"
+        publisher: "arXiv preprint arXiv:2610.40473; submitted to IEEE Transactions on Automatic Control"
+        date: "2026"
+        summary: "**Jixian Liu**, Ihab Tabbara, Hussein Sibai, and Enrique Mallada. Extended version of the CoRL 2026 paper."
       - title: "On the Limits of Sampling-Based Reachability: Geometry, Dynamics, and Sample Complexity"
         publisher: 10th Annual Conference on Robot Learning
         date: "2026"
@@ -84,6 +88,11 @@ cv:
         publisher: IEEE Internet of Things Journal
         date: "2023"
         summary: "Xueyuan Cui, **Jixian Liu**, and Yao Zhou."
+    Datasets and Benchmarks:
+      - title: "Agents’ Last Exam"
+        publisher: "arXiv preprint arXiv:2606.05405"
+        date: "2026"
+        summary: "Yiyou Sun, Xinyang Han, Weichen Zhang, …, **Jixian Liu**, Maojia Song, Ruheng Wang, Shengcao Cao, Yanxin Zhang, et al."
     Academic Services:
       - bullet: "**Journal reviewer:** IET Renewable Power Generation Journal; IEEE Control Systems Letters."
       - bullet: "**Conference reviewer:** American Control Conference (2026)."

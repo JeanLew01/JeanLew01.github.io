@@ -71,6 +71,7 @@ My research asks how robots can obtain meaningful safety guarantees with limited
 I study sampling-based reachability, including the roles of geometry, dynamics, and sample complexity. I also work on data-driven target reachability in Hamiltonian systems using symplectic inductive bias.
 
 - **[On the Limits of Sampling-Based Reachability: Geometry, Dynamics, and Sample Complexity]({{ '/publications/' | relative_url }}#liu2026limits)** — Conference on Robot Learning, 2026.
+- **[Fundamental Limits of Sampling-Based Reachability: Geometry and Flow Distortion]({{ '/publications/' | relative_url }}#liu2026fundamental)** — arXiv preprint, 2026; extended version of the CoRL 2026 paper, submitted to IEEE Transactions on Automatic Control.
 - **[Symplectic Inductive Bias for Data-Driven Target Reachability in Hamiltonian Systems]({{ '/publications/' | relative_url }}#ouyang2026symplectic)** — IEEE Conference on Decision and Control, 2026.
 
 ### Non-parametric methods for safety-critical control

@@ -69,7 +69,7 @@ git push -u origin main
 - **中文姓名**：`_pages/about.md` 的 `chinese_name` 保留可访问的“刘济衔”文本；英文姓名后展示的原创瘦金风格字标位于 `assets/img/identity/liu-jixian-slender-gold.png`，通过 `assets/css/name-font.css` 的遮罩跟随明暗主题配色。生成说明与提示词见同目录 `README.md`。中英文标题使用最小化的 `_layouts/about.liquid` 覆盖；更新此模板后须执行 `bundle exec al-folio upgrade overrides accept _layouts/about.liquid`，一并提交 `.al-folio-overrides.yml`。
 - **头像下引言**：编辑 `_pages/about.md` 的 `profile.more_info`，样式在 `assets/css/profile-quote.css`。引文使用 Cormorant Garamond Italic 400，署名使用 Montserrat Regular 400；字体自托管于 `assets/fonts/cormorant-garamond/` 和 `assets/fonts/montserrat/`，各目录内附来源记录与许可证。
 - **联系方式**：编辑 `_data/socials.yml`，更新邮箱、Google Scholar ID 等。邮箱已填写为简历中的 `jliu376@jh.edu`。
-- **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 6 篇论文按会议、预印本和期刊分组；4 篇控制与可达性论文已标为首页精选，并配置预览图。图片放在 `assets/img/publication_preview/`，在对应论文条目中添加 `preview = {图片文件名.png},`。新增论文需保持作者、年份和发表状态准确。
+- **论文**：更新 `_bibliography/papers.bib` 中的 BibTeX。现有 8 篇论文按会议、预印本、期刊和数据集与基准分组；4 篇控制与可达性论文已标为首页精选，并配置预览图。`@misc` 条目使用 `keywords = {preprint}` 或 `keywords = {benchmark}` 指定分组。图片放在 `assets/img/publication_preview/`，在对应论文条目中添加 `preview = {图片文件名.png},`。新增论文需保持作者、年份和发表状态准确，投稿中的论文应标明预印本和投稿状态。
 - **研究概览**：编辑 `_pages/research.md`。
 - **Funding Projects**：编辑 `_data/funding.yml` 中的项目名称、约 50 词介绍和图片信息。图片放在 `assets/img/funding/`，卡片样式在 `assets/css/funding.css`；桌面双列、手机单列。
 - **教学与服务**：编辑 `_pages/teaching-service.md`，同步更新 `_data/cv.yml` 中的对应记录。

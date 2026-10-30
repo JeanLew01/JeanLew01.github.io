@@ -17,10 +17,14 @@ nav_order: 2
 
 <h2>Preprints</h2>
 
-{% bibliography --query @misc %}
+{% bibliography --query @misc[keywords=preprint] %}
 
 <h2>Journals</h2>
 
 {% bibliography --query @article %}
+
+<h2>Datasets &amp; Benchmarks</h2>
+
+{% bibliography --query @misc[keywords=benchmark] %}
 
 </div>
