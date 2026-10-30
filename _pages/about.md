@@ -52,7 +52,7 @@ More information can be found in my [CV]({{ '/assets/pdf/CV_Jixian.pdf' | relati
   style="max-height: 10rem; overflow-y: auto; padding-right: 0.5rem; scrollbar-width: thin;"
   markdown="1"
 >
-- **2026:** Awarded the CoRL Travel Award.
+- **Oct. 2026:** Awarded the CoRL Travel Award.
 - **Sept. 2026:** Awarded the Amazon AI PhD Fellowship. Thank you, Amazon!
 - **Sept. 2026:** 1 paper is accepted by CoRL.
 - **Sept. 2026:** My academic page is online!
